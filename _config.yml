@@ -6,12 +6,12 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Jacksgong,Jacks,Jacks Blog,龚振杰,英语流利说,微信,wechat"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: /atom.xml
 
 # Specify the date when the site was setup
 #since: 2015
@@ -59,8 +59,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
+#scheme: Muse
+scheme: Mist
 #scheme: Pisces
 
 
@@ -116,6 +116,15 @@ font:
 # Sidebar Settings
 # ---------------------------------------------------------------
 
+# Sidebar, available value:
+#  - post    expand on posts automatically. Default.
+#  - always  expand for all pages automatically
+#  - hide    expand only when click on the sidebar toggle icon.
+#  - remove  Totally remove sidebar including sidebar toggle icon.
+sidebar: hide
+#sidebar: always
+#sidebar: hide
+#sidebar: remove
 
 # Social Links
 # Key is the link label showing to end users.
@@ -211,7 +220,7 @@ scroll_to_more: true
 # Automatically Excerpt. Not recommand.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 
@@ -394,3 +403,18 @@ images: images
 
 # Theme version
 version: 5.0.1
+
+since: 2012
+
+social:
+  github: "https://github.com/Jacksgong"
+  zhihu: "http://www.zhihu.com/people/jacks-gong"
+  linkedin: "https://cn.linkedin.com/in/jacksgong"
+
+
+avatar: http://7xjww9.com1.z0.glb.clouddn.com/ace1_s.png
+
+links_title: Resume
+links:
+  en: http://resume.dreamtobe.cn/
+  zh: http://resume-zh.dreamtobe.cn/
