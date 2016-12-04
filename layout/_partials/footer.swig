@@ -8,6 +8,7 @@
   <span class="author" itemprop="copyrightHolder">{{ config.author }}</span>
 </div>
 
+{% if theme.copyright %}
 <div class="powered-by">
   {{ __('footer.powered', '<a class="theme-link">Hexo</a>') }}
 </div>
@@ -18,3 +19,4 @@
     NexT.{{ theme.scheme }}
   </a>
 </div>
+{% endif %}
