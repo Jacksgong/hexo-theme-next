@@ -464,6 +464,6 @@ images: images
 # Theme version
 version: 5.1.0
 
-reward_comment: 坚持原创技术分享，如果通过文章您有所成长，欢迎用钱砸向我！
+#reward_comment: 坚持原创技术分享，如果通过文章您有所成长，欢迎用钱砸向我！
 wechatpay: /img/wechatpay.png
-alipay: /img/alipay.png
+#alipay: /img/alipay.png
