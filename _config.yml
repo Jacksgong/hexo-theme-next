@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jacksgong,Jacks,Jacks Blog,龚振杰,英语流利说,微信,wechat"
+keywords: "Jacksgong,Jacks,Jacks Blog,龚振杰,支付宝,alipay,英语流利说,微信,wechat"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -463,3 +463,7 @@ images: images
 
 # Theme version
 version: 5.1.0
+
+reward_comment: 坚持原创技术分享，如果通过文章您有所成长，欢迎用钱砸向我！
+wechatpay: /img/wechatpay.png
+alipay: /img/alipay.png
