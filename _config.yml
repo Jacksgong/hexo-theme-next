@@ -24,7 +24,7 @@ copyright: true
 
 # Declare license on posts
 post_copyright:
-  enable: false
+  enable: true
   license: CC BY-NC-SA 3.0 CN
   license_url: http://creativecommons.org/licenses/by-nc-sa/3.0/cn/
 
