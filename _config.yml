@@ -45,7 +45,7 @@ seo: true
 menu:
   home: /
   categories: /categories
-  #about: /about
+  about: https://github.com/Jacksgong/Blog
   archives: /archives
   tags: /tags
   #sitemap: /sitemap.xml
@@ -61,7 +61,7 @@ menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
-  about: user
+  about: code 
   categories: th
   schedule: calendar
   tags: tags
