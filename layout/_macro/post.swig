@@ -134,7 +134,7 @@
                   <span class="post-comments-count fb-comments-count" data-href="{{ post.permalink }}" itemprop="commentCount">0</span> comments
                 </a>
               </span>
-            {% elseif theme.disqus_shortname %}
+            {% elseif theme.disqus_shortname and theme.disqus_header_show %}
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
                 <span class="post-meta-item-icon">
