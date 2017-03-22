@@ -292,14 +292,14 @@ mathjax:
 #duoshuo_shortname:
 
 # Disqus
-disqus_shortname: jacksgong
-disqus_header_show: false
+#disqus_shortname: jacksgong
+#disqus_header_show: false
 
 # Hypercomments
-#hypercomments_id:
+hypercomments_id: 88598
 
 # Gentie productKey
-#gentie_productKey:
+#gentie_productKey: 2d3c4ad9324b4edda39b5936af91e37d
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
@@ -307,7 +307,7 @@ disqus_header_show: false
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
+#livere_uid: MTAyMC8yNzgzOS80NDE1
 
 # Baidu Share
 # Available value:
