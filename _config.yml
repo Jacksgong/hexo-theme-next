@@ -290,12 +290,12 @@ mathjax:
 
 # Disqus
 disqus:
-  enable: false
+  enable: true
   shortname: jacksgong
-  count: true
+  count: false
 
 # Hypercomments
-hypercomments_id: 88598
+# hypercomments_id: 88598
 
 # Gentie productKey
 #gentie_productKey: 2d3c4ad9324b4edda39b5936af91e37d
@@ -528,7 +528,7 @@ vendors:
   # Internal version: 1.0.0
   # https://github.com/hustcc/canvas-nest.js
   canvas_nest:
-  
+
   #three
   three:
   three_waves:
