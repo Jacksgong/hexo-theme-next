@@ -209,6 +209,7 @@
           {% if theme.post_wordcount.wordcount or theme.post_wordcount.min2read %}
             <div class="post-wordcount">
               {% if theme.post_wordcount.wordcount %}
+                <span class="post-meta-divider">|</span>
                 <span class="post-meta-item-icon">
                   <i class="fa fa-file-word-o"></i>
                 </span>
@@ -248,8 +249,7 @@
       </header>
     {% endif %}
 
-
-    <div class="post-body" itemprop="articleBody">
+    <div class="post-body{% if theme.han %} han-init-context{% endif %}" itemprop="articleBody">
 
       {# Gallery support #}
       {% if post.photos and post.photos.length %}
