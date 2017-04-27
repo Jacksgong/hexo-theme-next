@@ -32,7 +32,7 @@
               {% if post.sticky > 0 %}
                 {{ post.sticky }}
                 <span class="post-sticky-flag" title="{{ __('post.sticky') }}">
-                  <i class="fa fa-thumb-tack"></i>
+                  <i class="fa fa-eercast"></i>
                 </span>
               {% endif %}
               <a class="post-title-link post-title-link-external" target="_blank" href="{{ url_for(post.link) }}" itemprop="url">
@@ -43,7 +43,7 @@
               {% if is_index %}
                 {% if post.sticky > 0 %}
                   <span class="post-sticky-flag" title="{{ __('post.sticky') }}">
-                    <i class="fa fa-thumb-tack"></i>
+                    <i class="fa fa-eercast"></i>
                   </span>
                 {% endif %}
                 <a class="post-title-link" href="{{ url_for(post.path) }}" itemprop="url">
