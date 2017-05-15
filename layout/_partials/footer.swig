@@ -10,13 +10,20 @@
 
 {% if theme.copyright %}
 <div class="powered-by">
-  {{ __('footer.powered', '<a class="theme-link">Hexo</a>') }}
+  {{ __('由') }}
+  <a class="theme-link" href='https://hexo.io'>
+    Hexo
+  </a>
+  与
+  <a class="theme-link" href='http://theme-next.iissnan.com/'>
+   NexT
+  </a>
+  强力驱动
 </div>
-
 <div class="theme-info">
-  {{ __('footer.theme') }} -
-  <a class="theme-link">
-    NexT.{{ theme.scheme }}
+  {{ __(' 开源') }} -
+  <a class="theme-link" href='https://github.com/Jacksgong/Blog'>
+    Jacksgong/Blog
   </a>
 </div>
 {% endif %}

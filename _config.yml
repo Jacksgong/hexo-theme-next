@@ -47,7 +47,7 @@ index_with_subtitle: false
 menu:
   home: /
   categories: /categories
-  about: https://github.com/Jacksgong/Blog
+  #  about: https://github.com/Jacksgong/Blog
   archives: /archives
   tags: /tags
   #sitemap: /sitemap.xml
