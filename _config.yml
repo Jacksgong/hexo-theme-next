@@ -138,10 +138,11 @@ font:
 #social:
   #LinkLabel: Link
 social:
-  github: "https://github.com/Jacksgong"
-  zhihu: "http://www.zhihu.com/people/jacks-gong"
-  linkedin: "https://cn.linkedin.com/in/jacksgong"
-  twitter: "https://twitter.com/JacksGong"
+  GitHub: "https://github.com/Jacksgong"
+  Life: "https://life.jacksgong.com"
+  Linkedin: "https://cn.linkedin.com/in/jacksgong"
+  Resume: "https://resume.dreamtobe.cn/"
+
 
 
 # Social Links Icons
@@ -154,8 +155,11 @@ social_icons:
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
+  Linkedin: linkedin
   Twitter: twitter
   Weibo: weibo
+  Resume: paper-plane-o
+  Life: ravelry
 
 
 # Sidebar Avatar
@@ -173,7 +177,7 @@ toc:
 
   # If true, all words will placed on next lines if header width longer then sidebar width.
   wrap: false
-  
+
 
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
@@ -209,12 +213,8 @@ sidebar:
 
 
 # Blog rolls
-links_title: Resumes
 #links_layout: block
 #links_layout: inline
-links:
-  en: https://resume.dreamtobe.cn/
-  zh: https://resume-zh.dreamtobe.cn/
 
 
 # ---------------------------------------------------------------
@@ -263,7 +263,7 @@ post_copyright:
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
   history_url: https://github.com/Jacksgong/Blog/commits/master/
-  feature_prefix: 本文已发布到JacksBlog公众号 - 
+  feature_prefix: 本文已发布到JacksBlog公众号 -
 
 # ---------------------------------------------------------------
 # Misc Theme Settings
@@ -406,11 +406,11 @@ vkontakte_api:
 
 # Star rating support to each article.
 # To get your ID visit https://widgetpack.com
-rating: 
+rating:
   enable: false
   id:     #<app_id>
   color:  fc6423
-  
+
 
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
