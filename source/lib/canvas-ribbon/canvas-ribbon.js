@@ -66,12 +66,22 @@
     path[1] = {x: nextX, y: nextY}     // 更新终点
   }
 
-  function geneY(y) {
-    var temp = y + (random() * 2 - 1.1) * RIBBON_WIDTH;
-    return (temp > height || temp < 0) ? geneY(y) : temp;
-  }
-
-  document.onclick = init;
-  document.ontouchstart = init;
-  init();
+  var o = document.createElement("canvas");
+  o.style.cssText = "position:fixed;top:0;left:0;z-index:-1", document.getElementsByTagName("body")[0].appendChild(o);
+  var i, c = o,
+    a = c.getContext("2d"),
+    l = window.devicePixelRatio || 1,
+    d = window.innerWidth,
+    r = window.innerHeight,
+    u = 90,
+    f = Math,
+    h = 0,
+    m = 2 * f.PI,
+    s = f.cos,
+    x = f.random,
+    targetA = false;
+  c.width = d * l, c.height = r * l, a.scale(l, l), a.globalAlpha = .6, document.onclick = e, document.ontouchend = e, setTimeout(function() {
+    targetA = true;
+    e();
+  }, 100);
 }();
