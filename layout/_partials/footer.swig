@@ -35,7 +35,7 @@
 </div>
 <div class="theme-info">
   {{ __(' 开源') }} -
-  <a class="theme-link" href='https://github.com/Jacksgong/Blog'>
+  <a class="theme-link" href='https://git.jacksgong.com/Jacksgong/Blog'>
     Jacksgong/Blog
   </a>
 </div>
