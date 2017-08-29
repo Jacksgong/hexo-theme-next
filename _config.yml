@@ -137,10 +137,10 @@ font:
 #social:
   #LinkLabel: Link
 social:
+  Home: "https://jacksgong.com"
+  Board: "https://jacksgong.com/notes.html"
   GitHub: "https://github.com/Jacksgong"
   Life: "https://life.jacksgong.com"
-  Linkedin: "https://cn.linkedin.com/in/jacksgong"
-  Resume: "https://resume.dreamtobe.cn/"
 
 
 # Social Links Icons
@@ -155,10 +155,11 @@ social_icons:
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
-  Linkedin: linkedin
+  #Linkedin: linkedin
+  Board: th-large
   Twitter: twitter
   Weibo: weibo
-  Resume: paper-plane-o
+  #Home: 
   Life: ravelry
 
 # Blog rolls
