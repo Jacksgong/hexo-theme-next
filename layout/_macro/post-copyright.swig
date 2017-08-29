@@ -6,7 +6,7 @@
     </li>
     <li class="post-copyright-history">
       <strong>{{ __('post.copyright.history') + __('symbol.colon') }} </strong>
-      <a href="{{ theme.post_copyright.history_url + 'source/_posts/' + String(post.path).split('/')[String(post.path).split('/').length -2] + '.md'}}" title="{{ '《' + post.title + '》'+ '在Github上的迭代日志'}}" target = "_blank">{{ '本文在Github上的迭代日志'}}</a>
+      <a href="{{ theme.post_copyright.history_url + 'source/_posts/' + String(post.path).split('/')[String(post.path).split('/').length -2] + '.md'}}" title="{{ '《' + post.title + '》'+ '在GitLab上的迭代日志'}}" target = "_blank">{{ '本文在GitLab上的迭代日志'}}</a>
     </li>
     <li class="post-copyright-link">
       <strong>{{ __('post.copyright.link') + __('symbol.colon') }}</strong>
