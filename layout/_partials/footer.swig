@@ -34,9 +34,14 @@
   强力驱动
 </div>
 <div class="theme-info">
-  {{ __(' 开源') }} -
+  &ensp;|&ensp;
   <a class="theme-link" href='https://git.jacksgong.com/Jacksgong/Blog'>
     Jacksgong/Blog
   </a>
+  &ensp;|&ensp;
+  <a href='http://beian.miit.gov.cn'> 
+    闽ICP备12012451号 
+  </a>
 </div>
 {% endif %}
+  
